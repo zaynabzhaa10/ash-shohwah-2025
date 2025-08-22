@@ -35,9 +35,9 @@
 
 /* Gaya untuk tombol yang sedang aktif */
 .filter-container button.active {
-  background-color: #007bff;
+  background-color: #1f981f;
   color: #fff;
-  border-color: #007bff;
+  border-color: #1f981f;
   box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
 }
 

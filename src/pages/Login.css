@@ -70,7 +70,7 @@ html, body {
 
 .login-form-card input:focus {
  outline: none;
- border-color: #4CAF50; /* Hijau */
+ border-color: #1f981f; /* Hijau */
 }
 
 .login-form-card button {

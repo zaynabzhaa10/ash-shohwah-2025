@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: flex-start;
   padding: 30px 20px;
-  background-color: #f4f7f6;
+  background-color: #ffffff;
 }
 
 /* Card untuk form profil */
@@ -50,19 +50,19 @@
 
 .profile-form-card input:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: #1f981f;
 }
 
 /* Gaya untuk pesan sukses dan error */
 .success-message {
-  color: #28a745;
+  color: #1f981f;
   font-weight: bold;
   text-align: center;
   margin-bottom: 15px;
 }
 
 .error-message {
-  color: #dc3545;
+  color: #a02525;
   font-weight: bold;
   text-align: center;
   margin-bottom: 15px;
@@ -72,7 +72,7 @@
 .profile-form-card button[type="submit"] {
   width: 100%;
   padding: 12px;
-  background-color: #007bff;
+  background-color: #1f981f;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -83,13 +83,13 @@
 }
 
 .profile-form-card button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #1f981f;
 }
 
 .logout-button {
   width: 100%;
   padding: 12px;
-  background-color: #dc3545;
+  background-color: #a02525;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -101,5 +101,5 @@
 }
 
 .logout-button:hover {
-  background-color: #c82333;
+  background-color: #a02525;
 }
