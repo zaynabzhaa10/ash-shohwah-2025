@@ -1,0 +1,66 @@
+/* src/pages/Home.css */
+
+.home-container {
+  padding: 30px;
+}
+
+.home-container h2,
+.home-container h3 {
+  text-align: center;
+  color: #333;
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Container untuk daftar card departemen */
+.departments-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 20px;
+}
+
+/* Gaya untuk card departemen */
+.department-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 100%;
+  max-width: 350px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+}
+
+.department-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.department-card h4 {
+  margin-top: 0;
+  color: #007bff;
+  font-size: 1.2em;
+}
+
+.department-card p {
+  color: #6c757d;
+  line-height: 1.5;
+  font-size: 0.95em;
+}
+
+/* Gaya untuk garis pemisah */
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: #ddd;
+  margin: 40px auto;
+  width: 80%;
+}

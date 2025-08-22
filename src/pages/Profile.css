@@ -1,0 +1,105 @@
+/* src/pages/Profile.css */
+
+/* Container utama untuk halaman profil */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 20px;
+  background-color: #f4f7f6;
+}
+
+/* Card untuk form profil */
+.profile-form-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #e0e0e0;
+}
+
+.profile-form-card h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+/* Gaya untuk setiap baris input */
+.profile-form-card div {
+  margin-bottom: 20px;
+}
+
+.profile-form-card label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.profile-form-card input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.profile-form-card input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Gaya untuk pesan sukses dan error */
+.success-message {
+  color: #28a745;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: #dc3545;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Gaya untuk tombol update dan logout */
+.profile-form-card button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-form-card button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}

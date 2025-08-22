@@ -1,0 +1,76 @@
+/* src/pages/Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.login-form-card h1 {
+  color: #333;
+  margin-bottom: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.login-form-card div {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-form-card label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+
+.login-form-card input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form-card input:focus {
+  outline: none;
+  border-color: #4CAF50; /* Hijau */
+}
+
+.login-form-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #D32F2F; /* Merah */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-form-card button:hover {
+  background-color: #B71C1C; /* Merah lebih gelap */
+}
+
+.login-form-card p {
+  margin-top: 15px;
+  font-size: 14px;
+}
