@@ -26,25 +26,21 @@ function App() {
 
   return (
     <div className="app-container">
-      <nav>
-        <ul>
-          {isLoggedIn ? (
-            <>
-              <li><Link to="/">Beranda</Link></li>
-              <li><Link to="/ash-shohwah">Ash-shohwah</Link></li>
-              <li><Link to="/profile">Profile</Link></li>
-              <li>
-                <button onClick={() => {
-                  localStorage.removeItem('loggedInUser');
-                  setIsLoggedIn(false);
-                }}>Logout</button>
-              </li>
-            </>
-          ) : (
-            <li><Link to="/login">Login</Link></li>
-          )}
-        </ul>
-      </nav>
+      {isLoggedIn && (
+        <nav>
+          <ul>
+            <li><Link to="/">Beranda</Link></li>
+            <li><Link to="/ash-shohwah">Ash-shohwah</Link></li>
+            <li><Link to="/profile">Profile</Link></li>
+            <li>
+              <button onClick={() => {
+                localStorage.removeItem('loggedInUser');
+                setIsLoggedIn(false);
+              }}>Logout</button>
+            </li>
+          </ul>
+        </nav>
+      )}
 
       <main>
         <Routes>
