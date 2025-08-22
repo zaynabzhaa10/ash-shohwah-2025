@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { supabase } from '../supabase/client';
 import { useNavigate } from 'react-router-dom';
-import './Login.css'; // <<< Tambahkan baris ini
+import './Login.css'; 
 
 function Login({ setIsLoggedIn }) {
   const [nomorAnggota, setNomorAnggota] = useState('');

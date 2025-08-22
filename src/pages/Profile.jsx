@@ -203,8 +203,6 @@ function Profile() {
             {isSubmitting ? 'Memperbarui...' : 'Update Profil'}
           </button>
         </form>
-
-        <button onClick={handleLogout} className="logout-button">Logout</button>
       </div>
     </div>
   );

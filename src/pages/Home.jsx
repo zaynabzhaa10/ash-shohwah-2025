@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import DepartmentCard from '../components/DepartmentCard'; // Impor komponen baru
+import DepartmentCard from '../components/DepartmentCard'; 
 
 function Home() {
   const [userName, setUserName] = useState('');
